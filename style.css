@@ -1,0 +1,133 @@
+/* All elements default to position: static; */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 20px /*solid orange*/;
+    font-family: sans-serif;
+    min-height: 100%;
+    /* border: solid red; */
+}
+
+.parent{
+    /* border: solid orange; */
+    display: flex;
+    font-size: 30px;
+    position: relative;
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 75vh;
+    align-items: left;
+    border: 2px solid rgba(228, 228, 228, 0.5);
+    /* min-width: 15vw; */
+    width: 25vw;
+    /* max-width: 40vw; */
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+    gap: 10px;
+  }
+  
+  .child{
+    /* color: green; */
+    font-size: 17px;
+    padding: 5px;
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 3px;
+    min-height: 15px;
+  }
+  
+  .email{
+    /* background-color: green; */
+    padding: 7px;
+    color: rgb(228, 228, 228);
+    margin-bottom: 20px;
+  }
+  
+  .password{
+    /* background-color: blue; */
+    padding: 7px;
+    color: rgb(228, 228, 228);
+  }
+  
+  .continue{
+    font-size: 15px;
+    background-color: rgb(255, 221, 70);
+    border: 1px solid rgb(223, 182, 0);
+    /* color: black; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+
+  .help{
+    /* background-color: orange; */
+    color: black;
+    text-align: left;
+    color: rgb(0, 158, 221);
+    border: none;
+  }
+
+  button:hover{
+    border: 1px solid rgb(107, 107, 107);
+  }
+  button:active{
+    background: white;
+  }
+
+  .inputTitle{
+    /* border: 1px solid greenyellow; */
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .forgotpassword{
+    color: rgb(0, 158, 221);
+  }
+
+  .parent2{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    min-width: 35vw;
+    margin-top: 10px;
+    /* justify-content: space-around; */
+    /* align-content: space-around; */
+  }
+  .create{
+    background: rgb(221, 221, 221);
+    border: 1px solid rgb(172, 172, 172);
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .logo {
+    height:200px
+   }
+   img {
+    width: auto; 
+    max-height: 100%; 
+   }
+   .new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid green; */
+    font-size: 17px;
+    color: rgb(121, 121, 121);
+    gap: 5px;
+  }
+   .line {
+    border-top: 1px solid rgba(121, 121, 121);
+    border-radius: 50px;
+    height: 0;
+    flex-grow: 4;
+   }
